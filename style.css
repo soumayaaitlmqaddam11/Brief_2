@@ -18,13 +18,14 @@ header{
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-
 .part-left{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.adad{
+   background-color: red;
+}
 .part-right ul{
     display: flex;
     justify-content: center;
@@ -396,6 +397,7 @@ footer p{
     
     
 }
+/* page3 */
 .section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -571,6 +573,7 @@ footer p{
     justify-content: center;
     gap: 200px;  
 }
+
 .section2{  
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -634,7 +637,7 @@ pre{
     font-weight: 300;
     line-height: normal;
 }
-
+/* contact */
 .contact{
     background: white;
     width: 500px;
@@ -662,9 +665,7 @@ pre{
     width: 70%;
     padding: 8px 0 8px 40px;
 }
-/* .input-name span{
-margin-left: 35px;
-} */
+
 .text-name{
     width: 90%;
     padding: 8px 0 8px 40px;
@@ -700,6 +701,7 @@ margin-left: 35px;
   margin-left: 20px; 
   text-align: center;  
 }
+/* menu */
 #sidebar{
     transition: 0.6s;
 }
@@ -744,6 +746,7 @@ margin-left: 35px;
     font-size: 30px;
     padding: 4px;
 }
+/* card shopp */
 .card-shopp{
     background-color: #E2E8F0;
     position: relative;
@@ -751,16 +754,44 @@ margin-left: 35px;
     right: -54rem;
     width: 40%;
     height: 40%;
-   display: flex;
+  
 }
 .card-shopp h1{
     margin-left: 10%;
 }
 .card-shopp .total{
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    gap: 10px;
+   
 }
-.card-shopp .detail{
-    /* justify-self: flex-end; */
-    align-self: center;
+ .detail p{
+    margin-left: 470px;
+}
+.Backroun img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.firstProduct{
+    display: flex;
+}
+.ajout-supp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.likeSupp{
+    display: flex;
+    gap: 40px;
+   margin-left: 200px;
+}
+.moin-plus{
+    display: flex;
+    gap: 18px;
+    margin-left: 200px;
+}
+.total p{
+    font-size: 19px;
 }

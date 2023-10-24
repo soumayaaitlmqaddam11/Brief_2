@@ -1,376 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
-    <title>Amazone</title>
-</head>
-<body>
-    <header>
-        <div class="part-left">
-
-            <div id="si"> 
-                <script>
-                  window.addEventListener('mouseup', function(event){
-                     var box = document.getElementById('sidebar');
-                     if(event.target != box){
-                        box.style.width = '0px';
-                     }
-                  })
-                </script>
-            <div id="mainbox" onclick="openFunction()">&#9776;</div>
-            <div id="sidebar" class="sidemenu">
-                <a href="#" class="sign-in">Sign In</a>
-                <a href="#" class="account">Create account</a>
-                <a href="#" class="MAR">MAR</a>
-                <a href="page4.html" class="shopp"><img src="images/shopping-cart.png" alt="panneau"></a>
-                <a href="#" class="a">5</a>
-                <a href="" class="closebtn" onclick="closeFunction()">&times;</a>
-    
-           </div> 
-        </div>
-             <a href="#"><img class="logo" src="images/logo.png" alt="logo-amazone"></a>
-                <input type="search" class="search-bar" placeholder="Cherchez un produit, une marque ou catégorie...">
-        </div>
-        <div class="part-right">
-           
-             <ul>
-                <li><a href="#" class="sign-in">Sign In</a></li>
-                <li><a href="#" class="slash"></a>|</li>
-                <li><a href="#" class="account">Create account</a></li>
-                <li><a href="#" class="img"><img src="images/Morocco.png" alt="drapeau"></a></li>
-                <li><a href="#" class="MAR">MAR</a></li>
-                <li><a href="page4.html" class="shopp"><img src="images/shopping-cart.png" alt="panneau"></a></li>
-                <li><a href="" class="a">5</a></li>
-               
-             </ul>
-             <!-- <a href="" id ="si" ><i class="fa-solid fa-bars" style="color: #01060e;"></i></a> -->
-            </div>
-   
-    </header>
-    
-    
-    <div class="tablemodel">
-        <div class="table">
-            <div class="culomn1">
-               <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
-               <p>Accessoires</p> 
-
-            </div>
-            <div class="culomn1"> 
-                <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
-                <p>Accessoires</p> 
-  
-            </div>
-            <div class="culomn1">
-                <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
-                <p>Accessoires</p> 
-   
-            </div>
-            <div class="culomn1"> 
-                <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
-                <p>Accessoires</p> 
-  
-            </div>
-            <div class="culomn1">
-                <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;"> 
-                <p>Accessoires</p> 
-  
-            </div>
-            <div class="culomn1">
-                <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;"> 
-                <p>Accessoires</p> 
-  
-            </div>
-            <div class="culomn1"> 
-                <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
-                <p>Accessoires</p> 
-  
-            </div>
-           
-        </div>
-    
-    <div class="model">
-    <img src="images/model.png" alt="model">
-    </div>
-</div>
-    <div>
-    <h1 style="margin-left: 15px;">#Best Remise</h1>
-    </div>
-    <section class="Rectangle">
-           <div  class="a1"> 
-           </div>
-           <br>
-           <div class="container">
-            <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-            <div><img src="images/dollar.png" alt="dollar">
-            
-            <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-        </div>
-            <p>hello world, hello soumaya <br> hello world hello</p>
-            
-            <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
-
-                <div class="solde">
-                    <div class="star">
-                        <img  src="images/star.png" alt="star" >
-                         <div>5.0</div> 
-                    </div>
-                    <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                </div>
-                <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+        <title>Amazone</title>
         
+    </head>
+    <body>
+        <header>
+            <div class="part-left">
+
+                <div id="si">
+                    <script>
+                        window.addEventListener('mouseup', function (event) {
+                            var box = document.getElementById('sidebar');
+                            if (event.target != box) {
+                                box.style.width = '0px';
+                            }
+                        })
+                    </script>
+                    <div id="mainbox" onclick="openFunction()">&#9776;</div>
+                    <div id="sidebar" class="sidemenu">
+                        <a href="#" class="sign-in">Sign In</a>
+                        <a href="#" class="account">Create account</a>
+                        <a href="#" class="MAR">MAR</a>
+                        <a href=""  class="shopp"><img src="images/shopping-cart.png" alt="panneau"></a>
+                        <a href="#" class="a">5</a>
+                        <a href="" class="closebtn" onclick="closeFunction()">&times;</a>
+
+                    </div>
+                </div>
+                <a href="#"><img class="logo" src="images/logo.png" alt="logo-amazone"></a>
+                <input type="search" class="search-bar" placeholder="Cherchez un produit, une marque ou catégorie...">
+            </div>
+            <div class="part-right">
+
+                <ul>
+                    <li>
+                        <a href="#" class="sign-in">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="#" class="slash"></a>|</li>
+                    <li>
+                        <a href="#" class="account">Create account</a>
+                    </li>
+                    <li>
+                        <a href="#" class="img"><img src="images/Morocco.png" alt="drapeau"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="MAR">MAR</a>
+                    </li>
+                    <li>
+                        <a href="page4.html" ><img src="images/shopping-cart.png" alt="panneau" class="shopp"></a>
+                    </li>
+                    <li>
+                        <a href="" class="a">5</a>
+                    </li>
+
+                </ul>
+                <!-- <a href="" id ="si" ><i class="fa-solid fa-bars" style="color: #01060e;"></i></a> -->
+            </div>
+
+        </header>
+
+
+        <div class="tablemodel">
+            <div class="table">
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+                <div class="culomn1">
+                    <img class="T-shirt" src="images/T-shirt.png" alt="T-shirt" style="width: 28px; height: 28px;">
+                    <p>Accessoires</p>
+
+                </div>
+
+            </div>
+
+            <div class="model">
+                <img src="images/model.png" alt="model">
+            </div>
         </div>
-             </div>
-             <br>
-             <div class="container">
+        <div>
+            <h1 style="margin-left: 15px;">#Best Remise</h1>
+        </div>
+        <section class="Rectangle">
+            <div class="a1"></div>
+            <br>
+            <div class="container">
                 <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
                 <div><img src="images/dollar.png" alt="dollar">
-                
-                <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-            </div>
-                <p>hello world, hello soumaya <br> hello world hello</p>
-                
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
                 <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
 
                     <div class="solde">
                         <div class="star">
-                            <img  src="images/star.png" alt="star" >
-                             <div>5.0</div> 
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
                         </div>
                         <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
                     </div>
                     <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-            
-            </div>
-                 </div>
-                 <br>
-                 <div class="container">
-                    <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                    <div><img src="images/dollar.png" alt="dollar">
-                    
-                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-                </div>
-                    <p>hello world, hello soumaya <br> hello world hello</p>
-                    
-                    <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
-    
-                        <div class="solde">
-                            <div class="star">
-                                <img  src="images/star.png" alt="star" >
-                                 <div>5.0</div> 
-                            </div>
-                            <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                        </div>
-                        <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                
-                </div>
-                     </div>
 
-    </section>
-   
-    <div style="margin-left: 15px;">
-        <h1>#Best Products</h1>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
+                    </div>
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
+                    </div>
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <div style="margin-left: 15px;">
+            <h1>#Best Products</h1>
         </div>
         <section class="Rectangle1">
 
             <div class="container">
                 <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
                 <div><img src="images/dollar.png" alt="dollar">
-                
-                <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-            </div>
-                <p>hello world, hello soumaya <br> hello world hello</p>
-                
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
                 <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
 
                     <div class="solde">
                         <div class="star">
-                            <img  src="images/star.png" alt="star" >
-                             <div>5.0</div> 
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
                         </div>
                         <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
                     </div>
                     <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-            
+
+                </div>
             </div>
-                 </div>
-               <br>
+            <br>
             <div class="container">
                 <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
                 <div><img src="images/dollar.png" alt="dollar">
-                
-                <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-            </div>
-                <p>hello world, hello soumaya <br> hello world hello</p>
-                
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
                 <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
 
                     <div class="solde">
                         <div class="star">
-                            <img  src="images/star.png" alt="star" >
-                             <div>5.0</div> 
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
                         </div>
                         <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
                     </div>
                     <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-            
-            </div>
-                 </div>
-                 <br>
-                 <div class="container">
-                    <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                    <div><img src="images/dollar.png" alt="dollar">
-                    
-                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-                </div>
-                    <p>hello world, hello soumaya <br> hello world hello</p>
-                    
-                    <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
 
-                        <div class="solde">
-                            <div class="star">
-                                <img  src="images/star.png" alt="star" >
-                                 <div>5.0</div> 
-                            </div>
-                            <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                        </div>
-                        <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                
                 </div>
-                     </div>
-                     <br>
-                     <div class="container">
-                        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                        <div><img src="images/dollar.png" alt="dollar">
-                        
-                        <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
                     </div>
-                        <p>hello world, hello soumaya <br> hello world hello</p>
-                        
-                        <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
-    
-                            <div class="solde">
-                                <div class="star">
-                                    <img  src="images/star.png" alt="star" >
-                                     <div>5.0</div> 
-                                </div>
-                                <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                            </div>
-                            <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                    
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
                     </div>
-                         </div>
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
         </section>
         <br>
-            <section class="Rectangle2">
-                <div class="container">
-                    <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                    <div><img src="images/dollar.png" alt="dollar">
-                    
-                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-                </div>
-                    <p>hello world, hello soumaya <br> hello world hello</p>
-                    
-                    <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+        <section class="Rectangle2">
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
 
-                        <div class="solde">
-                            <div class="star">
-                                <img  src="images/star.png" alt="star" >
-                                 <div>5.0</div> 
-                            </div>
-                            <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                        </div>
-                        <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
                 </div>
-                     </div>
-                     <br>
-                     <div class="container">
-                        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                        <div><img src="images/dollar.png" alt="dollar">
-                        
-                        <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
                     </div>
-                        <p>hello world, hello soumaya <br> hello world hello</p>
-                        
-                        <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
+                    </div>
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
+                    </div>
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
+                <div><img src="images/dollar.png" alt="dollar">
+
+                    <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span>
+                </div>
+                <p>hello world, hello soumaya
+                    <br>
+                    hello world hello</p>
+
+                <div class="card-buttom">
+
+                    <div class="solde">
+                        <div class="star">
+                            <img src="images/star.png" alt="star">
+                            <div>5.0</div>
+                        </div>
+                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
+                    </div>
+                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="card-shopp">
+            <div>
+                <h1>Products</h1>
+            </div>
+            <div class="total">
+                <h3>Totale:</h3>
+                <p>0</p>
+            </div>
+            <div class="card">
+                <div class="pageCard">
+                    <div class="firstProduct">
+                        <div class="Backroun">
+                            <img src="images/ordi.png" alt="">
+                        </div>
+                        <div>
+                            <h3 style="margin-top: 60px; margin-left: 30px;">Product Name</h3>
+                            <p class="soumia">
+                                youcode</p>
+                            <h4 style="margin-left: 30px;">
+                                $1900</h4>
+                            <!-- <p style="margin-left: 30px;"> Sh
+                                opping :$ 15</p> -->
+
+                        </div>
+                        <div class="ajout-supp">
+                            <div class="likeSupp">
+                                <div class="icon1">
+                                    <i class="fa-sharp fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon2">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="moin-plus">
+                                <div class="moins">
+                                    <i class="fa-solid fa-circle-minus" style="color: #050505;"></i>
+                                </div>
+                                <div class="num" style="font-size: large;">1</div>
+                                <div class="plus">
+                                    <i class="fa-solid fa-circle-plus" style="color: #ffd43b;"></i>
+                                </div>
+                            </div>
+                            
+                                
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+               
+
+                <div class="firstProduct">
+                    <div class="Backroun">
+                        <img src="images/ordi.png" alt="">
+                    </div>
+                    <div>
+                        <h3 style="margin-top: 60px; margin-left: 30px;">Product Name</h3>
+                        <p class="soumia">
+                            youcode</p>
+                        <h4 style="margin-left: 30px;">
+                            $1900</h4>
+                        <!-- <p style="margin-left: 30px;"> Shopping :$ 15</p> -->
+
+                    </div>
+                       <div class="ajout-supp">
+                            <div class="likeSupp">
+                                <div class="icon1">
+                                    <i class="fa-sharp fa-regular fa-heart"></i>
+                                </div>
+                                <div class="icon2">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="moin-plus">
+                                <div class="moins">
+                                    <i class="fa-solid fa-circle-minus" style="color: #050505;"></i>
+                                </div>
+                                <div class="num" style="font-size: large;">1</div>
+                                <div class="plus">
+                                    <i class="fa-solid fa-circle-plus" style="color: #ffd43b;"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <br>
+                <div class="firstProduct">
+                    <div class="Backroun">
+                        <img src="images/ordi.png" alt="">
+                    </div>
+                    <div>
+                        <h3 style="margin-top: 60px; margin-left: 30px;">Product Name</h3>
+                        <p class="soumia">
+                            youcode</p>
+                        <h4 style="margin-left: 30px;">
+                            $1900</h4>
+                        <!-- <p style="margin-left: 30px;"> Shopping :$ 15</p> -->
+                    </div>
+                    <div class="ajout-supp">
+                        <div class="likeSupp">
+                            <div class="icon1">
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </div>
+                            <div class="icon2">
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="moin-plus">
+                            <div class="moins">
+                                <i class="fa-solid fa-circle-minus" style="color: #050505;"></i>
+                            </div>
+                            <div class="num" style="font-size: large;">1</div>
+                            <div class="plus">
+                                <i class="fa-solid fa-circle-plus" style="color: #ffd43b;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <p>voir les détails >></p>
+        </div>
+    </body>
+</html></section><footer>
+<ul class="footer-list">
+    <li>About</li>
+    <li>Support</li>
+    <li>FQA</li>
+</ul>
+<p>copy right 2023</p></footer>
+<script>
+
+    let incrementButtons = document.querySelectorAll(".plus");
+let decrementButtons = document.querySelectorAll(".moins");
+let numberDisplays = document.querySelectorAll(".num");
+
+function incrementNumber(index) {
+    let number = parseInt(numberDisplays[index].textContent);
+    number++;
+    numberDisplays[index].textContent = number;
+}
+
+function decrementNumber(index) {
+    let number = parseInt(numberDisplays[index].textContent);
+    if (number > 1) {
+        number--;
+        numberDisplays[index].textContent = number;
+    }
+}
+
+incrementButtons.forEach((button, index) => {
     
-                            <div class="solde">
-                                <div class="star">
-                                    <img  src="images/star.png" alt="star" >
-                                     <div>5.0</div> 
-                                </div>
-                                <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                            </div>
-                            <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                    
-                    </div>
-                         </div>
-                         <br>
-                         <div class="container">
-                            <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                            <div><img src="images/dollar.png" alt="dollar">
-                            
-                            <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-                        </div>
-                            <p>hello world, hello soumaya <br> hello world hello</p>
-                            
-                            <div class="card-buttom" style="display: flex;width: 100%;align-items: center;gap: 15px;">
-        
-                                <div class="solde">
-                                    <div class="star">
-                                        <img  src="images/star.png" alt="star" >
-                                         <div>5.0</div> 
-                                    </div>
-                                    <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                                </div>
-                                <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                        
-                        </div>
-                             </div>
-                             <br>
-                             <div class="container">
-                                <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
-                                <div><img src="images/dollar.png" alt="dollar">
-                                
-                                <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
-                            </div>
-                                <p>hello world, hello soumaya <br> hello world hello</p>
-                                
-                                <div class="card-buttom">
-            
-                                    <div class="solde">
-                                        <div class="star">
-                                            <img  src="images/star.png" alt="star" >
-                                             <div>5.0</div> 
-                                        </div>
-                                        <div style="font-size: 22px; color: var(--slate-400, #94A3B8); font-family: Inter;">solde 120</div>
-                                    </div>
-                                    <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
-                            
-                            </div>
-                                 </div>
-            </section>
-            <section class="card-shopp">
-               <div><h1>Products</h1></div>
-               <div class="total"><h3>Totale:</h3>
-               <p>0</p></div> 
-              <div class="detail"><p>voir les détails >></p></div> 
-            </section>
-            <footer>
-               <ul class="footer-list">
-                <li>About</li>
-                <li>Support</li>
-                <li>FQA</li>
-               </ul>
-               <p>copy right 2023</p>
-            </footer>
-            <script src="script.js"></script>
+    button.addEventListener("click", () => {
+        incrementNumber(index);
+    });
+});
+
+decrementButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+        decrementNumber(index);
+    });
+});
+
+    </script>
+
 </body>
+
 </html>
