@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Amazone</title>
 </head>
 <body>
     <header>
         <div class="part-left">
-<img class="logo" src="images/logo.png" alt="logo-amazone">
-<input type="search" class="search-bar" placeholder="Cherchez un produit, une marque ou catégorie...">
+            <div id="si"> 
+                <script>
+                  window.addEventListener('mouseup', function(event){
+                     var box = document.getElementById('sidebar');
+                     if(event.target != box){
+                        box.style.width = '0px';
+                     }
+                  })
+                </script>
+            <div id="mainbox" onclick="openFunction()">&#9776;</div>
+            <div id="sidebar" class="sidemenu">
+                <a href="#" class="sign-in">Sign In</a>
+                <a href="#" class="account">Create account</a>
+                <a href="#" class="MAR">MAR</a>
+                <a href="page4.html" class="shopp"><img src="images/shopping-cart.png" alt="panneau"></a>
+                <a href="#" class="a">5</a>
+                <a href="" class="closebtn" onclick="closeFunction()">&times;</a>
+    
+           </div> 
         </div>
-        <div class="part-right">
-           
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo-amazone"></a>
+              <input type="search" class="search-bar" placeholder="Cherchez un produit, une marque ou catégorie...">
+        </div>
+        <div class="part-right"> 
              <ul>
                 <li><a href="#" class="sign-in">Sign In</a></li>
                 <li><a href="#" class="slash"></a>|</li>
                 <li><a href="#" class="account">Create account</a></li>
                 <li><a href="#" class="img"><img src="images/Morocco.png" alt="drapeau"></a></li>
                 <li><a href="#" class="MAR">MAR</a></li>
-                <li><a href="#" class="shopp"><img src="images/shopping-cart.png" alt="panneau"></a></li>
+                <li><a href="page4.html" class="shopp"><img src="images/shopping-cart.png" alt="panneau"></a></li>
                 <li><a href="#" class="a">5</a></li>
              </ul>
+             <!-- <a href="#" id ="si" ><i class="fa-solid fa-bars" style="color: #01060e;"></i></a> -->
             </div>
    
     </header>
+    <main class="page2">
     <div class="Afla">
     <div id="keyword">1-2 over 1000 results for <span class="KeyBoard">"KeyBoard"</span></div>
+    <br>
     <div class="sortBy">
     <h2>sort by :</h2>
     <div class="dropdown">
@@ -53,13 +77,12 @@
             dropdown.classList.toggle('active');
         } 
     </script>
-
-    
     <div class="Container">
         <div class="left-colum">
+            <div class="marqshop">
     <div class="colomme colomme1">
         <h3>Marques</h3>
-        <ul style="list-style: none; margin-left: 0px;">
+        <ul style="list-style: none; margin-left: 0px;" class="marque">
             <div>
                 <input type="checkbox" id="coding" name="interest" value="coding" />
                 <label for="coding">ZARA</label>
@@ -81,7 +104,7 @@
     </div>
     <div class="colomme colomme2">
         <h3>Shopping</h3>
-        <ul style="list-style: none; margin-left: 0px;">
+        <ul style="list-style: none; margin-left: 0px;" class="sho">
             <div>
                 <input type="checkbox" id="coding" name="interest" value="coding" />
                 <label for="coding">ROBE</label>
@@ -96,44 +119,27 @@
               </div>
         </ul>
     </div>
+</div>
     <div class="colomme colomme3">
-        <h3>Price</h3>
+        <h3 class="prix">Price</h3>
+        <div><progress id="file" max="100" value="80">80%</progress></div>
+                <div>80%</div>
     </div>
 
    </div>
    <div class="right-colum">
     <div class="button">
-        <div  class="carre" style="border: 3px solid #4ADE80;
-        background: #FFF;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); width: 200px;
-        height: 20px ;text-align: center ;padding-top :10px; padding-bottom :10px;">
-            Free Shoping
-           </div>
-     <div class="carre"  style="border: 3px solid #4ADE80;
-     background: #FFF;
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); width: 200px;
-     height: 20px ;text-align: center ;padding-top :10px; padding-bottom :10px;">
-       Free Shoping
-       </div>
-     <div class="carre"  style="border: 3px solid #4ADE80;
-     background: #FFF;
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); width: 200px;
-     height: 20px ;text-align: center ;padding-top :10px; padding-bottom :10px;">
-      Free Shoping
-     </div>
-     <div class="carre4" style="color: #FACC15;
-     font-family: Inter;
-     font-size: 30px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: normal;">
+     <div  class="carre">Free Shoping</div>
+     <div class="carre">Free Shoping</div>
+     <div class="carre">Free Shoping</div>
+     <div class="carre4">
        Clean all filters
        </div>
     </div>
     <div class="right-colum1">
     <div class="colomme colomme4">
         <div class="container">
-            <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+            <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
             <div><img src="images/dollar.png" alt="dollar">
             
             <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -154,9 +160,10 @@
         </div>
              </div>
     </div>
+    <br>
     <div class="colomme colomme5">
          <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -175,10 +182,12 @@
             <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
     
     </div>
-         </div></div>
+         </div>
+        </div>
+        <br>
     <div class="colomme colomme6"> 
         <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -203,7 +212,7 @@
    <div class="right-colum2">
     <div class="colomme colomme4">
         <div class="container">
-            <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+            <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
             <div><img src="images/dollar.png" alt="dollar">
             
             <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -224,9 +233,10 @@
         </div>
              </div>
     </div>
+    <br>
     <div class="colomme colomme5">
          <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -245,10 +255,12 @@
             <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
     
     </div>
-         </div></div>
+         </div>
+        </div>
+        <br>
     <div class="colomme colomme6"> 
         <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -273,7 +285,7 @@
    <div class="right-colum3">
     <div class="colomme colomme4">
         <div class="container">
-            <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+            <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
             <div><img src="images/dollar.png" alt="dollar">
             
             <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -294,9 +306,10 @@
         </div>
              </div>
     </div>
+    <br>
     <div class="colomme colomme5">
          <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -315,10 +328,12 @@
             <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
     
     </div>
-         </div></div>
+         </div>
+        </div>
+        <br>
     <div class="colomme colomme6"> 
         <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -343,7 +358,7 @@
    <div class="right-colum4">
     <div class="colomme colomme4">
         <div class="container">
-            <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+            <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
             <div><img src="images/dollar.png" alt="dollar">
             
             <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -364,9 +379,10 @@
         </div>
              </div>
     </div>
+    <br>
     <div class="colomme colomme5">
          <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -385,10 +401,12 @@
             <div class="shopping-mall"><img src="images/shopping-mall.png" alt="mall"></div>
     
     </div>
-         </div></div>
+         </div>
+        </div>
+        <br>
     <div class="colomme colomme6"> 
         <div class="container">
-        <div><img src="images/rectangle-6.png" alt="rectangle-5"></div>
+        <div><img src="images/rectangle-6.png" alt="rectangle-6" class="image"></div>
         <div><img src="images/dollar.png" alt="dollar">
         
         <span style="font-size: 30px; color: var(--slate-500, #64748B); text-decoration:line-through red 3px;">$1450</span> 
@@ -413,6 +431,7 @@
 
    </div>
    </div>
+</main>
     <footer>
         <ul class="footer-list">
          <li>About</li>
@@ -422,6 +441,6 @@
         <p>copy right 2023</p>
      </footer>
 
- 
+    <script src="script.js"></script> 
 </body>
 </html>

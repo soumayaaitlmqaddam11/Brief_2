@@ -1,0 +1,218 @@
+@media screen and (max-width: 700px){
+    .tablemodel{
+        display: block;
+    }
+
+    .part-right ul{
+       display: none;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .search-bar{
+        width: 291px;
+        height: 40px;}
+    .model img{
+            width: 100%;
+            height: 100%;
+        }
+    .Rectangle{
+            display: block;
+            justify-content: center;
+            gap: 20px;
+          }
+    .Rectangle1{
+            display: block;
+            justify-content: space-around;
+        }
+    .Rectangle2{
+            display: block;
+            justify-content: space-around;
+        }
+    .logo{
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    .container .image{
+            width: 100%;
+        }
+    .a1{
+        width: 100%;
+    }    
+    #si{
+            display: flex;
+            
+        }
+    .Afla{
+            display: block;
+            
+        }
+    .sortBy{
+            display: block;
+            
+        }
+    .Container .right-colum .right-colum1{  
+            display: block;
+          
+        }
+    .Container .right-colum .right-colum2{   
+            display: block;
+        
+        
+        }
+    .Container .right-colum .right-colum3{  
+            display: block;
+        }
+    .Container .right-colum .right-colum4{
+            display: block;
+        }
+    .Container{
+            display: block;
+           
+        
+        }
+    .carre{
+            
+            width: 300px;
+            height: 30px;
+            
+        }
+    .carre4{
+             color: #FACC15;
+             font-family: Inter;
+             font-size: 15px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: normal;
+        }
+    .Container .right-colum .button{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border: #333; 
+        }
+    .section{
+            display: block;
+        }
+    .section .pic_list #big_img{
+           width: 100%;
+           max-height: 100%;
+        }
+        
+    .section .pic_list {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+           align-items: center;
+        }
+       
+    .section2{  
+            display: block;
+        }
+    .section3{
+            display: block;
+        } 
+    .section4{
+            display: block;
+        }
+    .textimg-SS img{
+            width: 420px; height: 280px;
+        }
+    .flex ul{
+            display: flex;
+            gap: 5px;
+            margin-left: 0px;
+        }
+    .c{
+            width: 400px;
+            height: 548px;
+        }
+    .five-star{
+            gap: 5px;
+            width: 360px;
+            height: 40px;
+            background: #2c15fa; 
+        }
+    .main{
+            display: block;
+            grid-column-gap: 30px;
+            margin-bottom: 300px;
+        }
+
+  
+    /* .Contact{
+            padding: 0px;
+        } */
+    body{
+            padding: 0px;
+        }
+    .page2{
+            padding:0px 20px;
+        }
+    .marqshop{
+            display: flex;
+           justify-content: space-around;
+        }
+    .marque{
+            padding-left: 0px;
+        }
+    .sho{
+            padding-left: 0px;
+        }
+    .prix{
+            margin: 0px;
+        }
+    .colomme3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    .Contact{
+            padding:0px 20px;
+        }
+    .page3{
+            padding:0px 20px;
+        }
+    .chat-partage{
+            gap: 150px;  
+        }
+    .calc{
+        display: flex;
+        flex-direction: column;
+       }
+    .soumia{
+        width: 80%;
+        background: #f5f0f0db;
+        background-color: #ffd43b;
+        border-radius: 25px; 
+        margin-left: 20px; 
+        text-align: center;  
+      }
+      .main .box .ayfas .icons{  
+        margin-left: 0px;
+    }
+    .main .box .ayfas .icons1{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    .main .box1 .ayfas .A{
+        width: 102px;
+        height: 102px;
+        margin-left: 0px;
+    }
+    .main .box1 .ayfas .Check{
+        margin-left: 0px;
+        gap: 30px;
+    }
+    .main .box1{
+        margin-bottom: 20px;
+    }
+    .table{
+       margin-left: 10%;
+     }
+   
+}
+
